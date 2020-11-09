@@ -1,0 +1,26 @@
+CREATE TABLE panes (
+    pan INT NOT NULL AUTO_INCREMENT, 
+    nombre CHAR(100),  
+    costo double(40,0),
+    envoltura CHAR(100),  
+    KEY (pan) 
+); 
+
+INSERT INTO panes VALUES (1, 'Pan con queso', 5000,'Bolsa de papel' ); 
+
+INSERT INTO panes VALUES (2, 'Pan blanco', 1000,  'Bolsa plastica' ); 
+
+INSERT INTO panes VALUES (3, 'Pan dulce', 2500,  'Bolsa de papel'); 
+
+INSERT INTO panes VALUES (4, 'Pan pizza', 7100,  'Bolsa de papel' ); 
+
+CREATE TABLE ventas (
+    pan INT NOT NULL AUTO_INCREMENT, 
+    nombre CHAR(100),  
+    costo double(40,0),
+    envoltura CHAR(100),  
+    KEY (pan) 
+); 
+
+
+
